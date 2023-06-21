@@ -4,6 +4,12 @@
     let step = 1;
     let count = 0;
   
+    /**
+     * Removes the colors from the traffic light and returns the traffic light to its default state
+     * 
+     * @param {HTMLCollection} elem 
+     * @param {string} colors 
+     */
     function removeClasses(elem, colors) {
       let len = colors.length;
       for (let item of elem) {
